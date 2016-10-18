@@ -2,22 +2,22 @@
 package boletin3programacion;
 
 public class Boletin3 {
-    private float kms; //kilometros recorridos
-    private float litros; //Litros de gasolina
-    private float vMed; //Velocidad Media
-    private float pGas; //Precio de la gasolina 
+    private float kms; 
+    private float litros; 
+    private float vMed; 
+    private float pGas; 
     
 
-    //constructores
     
-        //Valores por defecto
+    
+        
         public Boletin3(){
         kms =0;
         litros =0;
         vMed =0;
         pGas =0;
     }
-        //Valores creados
+        
     public Boletin3 (float kms, float litros, float vMed, float pGas){
         this.kms =kms;
         this.litros =litros;
